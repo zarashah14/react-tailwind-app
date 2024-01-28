@@ -42,7 +42,7 @@ function App() {
               Follow US
             </button>
           </div>
-          <Image  />
+          <img src={Image} alt="Description of your image" />
         </div>
       </Container>
     </>
