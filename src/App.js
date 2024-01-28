@@ -1,6 +1,6 @@
 import "./App.css";
 import Logo from "./assets/Logo";
-import Image from "./assets/image";
+import Image from "./assets/image.png";
 
 // components
 import Container from "./Components/Container";
