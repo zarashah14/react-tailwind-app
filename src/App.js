@@ -40,7 +40,7 @@ function App() {
               COFFEE SHOP
             </p>
             <p className="text-DS-black font-source-sans-pro text-3xl font-extrabold ">
-              Zara Shah
+              BRANKO!
             </p>
             <button
               type="button"
