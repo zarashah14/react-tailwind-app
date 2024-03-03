@@ -3,7 +3,7 @@ import Girl from '../assets/girl.png'
 function form() {
   return (
        <>
-         <div className='grid grid-cols-2 mx-10'>
+         <div className='grid grid-cols-2 mx-10 sm:items-center '>
           <div className='mx-10'>
             <h1  className='text-DS-Black font-source-sans-pro text-3xl font-extrabold'>WELLCOME TO BRANKO</h1>
             <p className=' font-source-sans-pro'>Lorem ipsum, dolor sit amet consectetur
@@ -29,6 +29,11 @@ function form() {
              
             <label>Password</label>
             <input type="password" id="pwd" name="pwd" placeholder="Password" className='py-2 my-2 rounded'/><br></br>
+            
+           
+            <input type="checkbox" id="vehicle1" name="user"/>
+            <label for="user">I agree to the terms of user.</label>
+
             <button
               type="button"
               class="bg-gradient-to-r px-4 from-green-400 to-blue-500 transition hover:-translate-y-2  hover:from-pink-500 hover:to-yellow-500 py-4 rounded my-2 mx-14"
