@@ -4,6 +4,7 @@ import Image from "./assets/image.png";
 import Form from "./Components/form"
 // components
 import Container from "./Components/Container";
+import Card from "./Components/card"
 function App() {
   return (
     <>
@@ -52,7 +53,9 @@ function App() {
           <img src={Image} alt="Description of your image" />
         </div>
         <Form/>
+        <Card />
       </Container>
+
     </>
   );
 }
