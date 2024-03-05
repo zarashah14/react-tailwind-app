@@ -5,6 +5,7 @@ import Form from "./Components/form"
 // components
 import Container from "./Components/Container";
 import Card from "./Components/card"
+import Services from './Pages/Service'
 function App() {
   return (
     <>
@@ -54,6 +55,7 @@ function App() {
         </div>
         <Form/>
         <Card />
+        <Services/>
       </Container>
 
     </>
