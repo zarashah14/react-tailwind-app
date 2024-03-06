@@ -62,6 +62,13 @@ function card() {
                  <p className='text-sm mt-4'>we explore the intricate art of coffee cultivation 
                    and the journey from bean to cup, unraveling the 
                    secrets that contribute to the perfect brew.</p>
+              <button
+              type="button"
+              class="bg-gradient-to-r px-4 from-green-400 to-blue-500 transition hover:-translate-y-2  hover:from-pink-500 hover:to-yellow-500 py-4 rounded-xl mt-6 w-40"
+             >  
+              My Coffee Shop
+             </button>
+
             </div>
          </div>
        </section>
