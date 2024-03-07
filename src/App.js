@@ -1,7 +1,8 @@
 import "./App.css";
-import Logo from "./assets/Logo";
+// import Logo from "./assets/Logo";
 import Image from "./assets/image.png";
 import Form from "./Components/form"
+import Navigation from "./Components/Navigation";
 // components
 import Container from "./Components/Container";
 import Card from "./Components/card"
@@ -13,6 +14,7 @@ function App() {
     <>
       
       <Container>
+        <Navigation/>
         {/* <div className="flex flex-col lg:flex-row lg:justify-between items-center lg:px-12"> 
           <div>
             <Logo/>
@@ -36,14 +38,15 @@ function App() {
         </div> */}
         <div className="flex flex-col lg:flex-row lg:justify-between items-center lg:px-12">
           <div>
-            <Logo />
-            <h3 className="text-3xl font-extrabold pt-10">
+            {/* <Logo /> */}
+            <h1 className="text-3xl font-bold">WELCOME TO BRANKO. COFFEE SHOP</h1>
+            <h3 className="text-3xl font-bold pt-10">
               Open
             </h3>
-            <p className="text-3xl font-extrabold ">
+            <p className="text-3xl font-bold ">
               COFFEE SHOP
             </p>
-            <p className="text-3xl font-extrabold ">
+            <p className="text-3xl font-bold ">
               BRANKO!
             </p>
             <button

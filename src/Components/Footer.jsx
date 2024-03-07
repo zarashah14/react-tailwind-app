@@ -1,5 +1,8 @@
 import React from 'react'
-
+import Vector1 from '../assets/Vector1'
+import Vector2 from '../assets/Vector2'
+import Vector3 from '../assets/Vector3'
+import Vector4 from '../assets/Vector4'
 function Footer() {
   return (
   
@@ -8,10 +11,10 @@ function Footer() {
          <h1 className='text-2xl text-white'>+971456890</h1>
          <div className='my-10'>
              <ul className='list-none flex flex-row align-middle justify-center gap-2 '>
-                <li className=' text-white'>icon1</li>
-                <li className=' text-white'>icon2</li>
-                <li className=' text-white'>icon3</li>
-                <li className=' text-white'>icon4</li>
+                <li className=' text-white'><Vector1/></li>
+                <li className=' text-white'><Vector2/></li>
+                <li className=' text-white'><Vector3/></li>
+                <li className=' text-white'><Vector4/></li>
              </ul>
              <button
               type="button"
