@@ -8,9 +8,9 @@ function Navigation() {
   return (
     <div className='bg-gray-900'>
       <nav>
-        <div className='flex justify-between p-6'>
+        <div className='flex justify-between items-center p-6'>
              <div>
-             <ul className='list-none flex flex-row gap-5 '>
+             <ul className='list-none flex gap-5 '>
                 <li className=' text-white'>Home</li>
                 <li className=' text-white'>About</li>
                 <li className='  text-white'>Services</li>
@@ -26,7 +26,7 @@ function Navigation() {
 
 
              <div>
-             <ul className='list-none flex flex-row gap-5 '>
+             <ul className='list-none flex gap-5 '>
                 <li className=' text-white'><Vector1/></li>
                 <li className=' text-white'><Vector2/></li>
                 <li className=' text-white'><Vector3/></li>
