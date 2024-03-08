@@ -11,12 +11,12 @@ function card() {
        <section className='p-10'>
 
          <div className='mb-10'>
-           <h1 className='text-5xl font-bold'>Blogs</h1>
+           <h1 className='text-4xl font-semibold'>Blogs</h1>
          </div>
 
          <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5'>
 
-           <div className='rounded-xl bg-green-200 md:p-8 p-4'>
+           <div className='rounded-xl bg-green-300 md:p-8 p-4'>
               <img src={Cartoon} className='rounded-xl' alt="Description of your image" />
               <h1 className='text-2xl mt-6 font-bold'>Coffee with friends</h1>
                <p className=''>Savoring Every Sip is not just a blog;
@@ -24,7 +24,7 @@ function card() {
                  stimulates creativity, and provides comfort in every sip.</p>
            </div>
           
-           <div className='rounded-xl bg-blue-200 md:p-8 p-4'>
+           <div className='rounded-xl bg-blue-300 md:p-8 p-4'>
               <img src={Cartoon2} className='rounded-xl' alt="Description of your image" />
               <h1 className='text-2xl text-black mt-6 font-bold'>Coffee with friends</h1>
                <p className='text-black'>Savoring Every Sip is not just a blog;
@@ -32,7 +32,7 @@ function card() {
                  stimulates creativity, and provides comfort in every sip.</p>
            </div>
 
-           <div className='rounded-xl bg-gray-200 md:p-8 p-4'>
+           <div className='rounded-xl bg-yellow-400 md:p-8 p-4'>
               <img src={Cartoon3} className='rounded-xl' alt="Description of your image" />
               <h1 className='text-2xl text-black mt-6 font-bold'>Couple Coffee</h1>
                <p className='text-black'>Savoring Every Sip is not just a blog;
@@ -40,7 +40,7 @@ function card() {
                  stimulates creativity, and provides comfort in every sip.</p>
            </div>
 
-           <div className='rounded-xl bg-pink-200 md:p-8 p-4'>
+           <div className='rounded-xl bg-pink-400 md:p-8 p-4'>
               <img src={Cartoon4} className='rounded-xl' alt="Description of your image" />
               <h1 className='text-2xl text-black mt-6 font-bold'>Coffee with Partners</h1>
                <p className='text-black'>Savoring Every Sip is not just a blog;
@@ -52,14 +52,14 @@ function card() {
          </div>
 
 
-         <div className='grid md:grid-cols-2 sm:grid-cols-1 mt-10 rounded-xl bg-gray-200 p-8'>
+         <div className='grid md:grid-cols-2 sm:grid-cols-1 mt-10 rounded-xl bg-gray-900 p-8'>
              <div>
              <img src={Cartoon5} className='rounded-xl' alt="Description of your image" />
              </div>
 
             <div className='flex flex-col justify-center align-middle md:p-8 p-4'> 
-                 <h1  className='text-2xl'>Branko Coffee Shop</h1>
-                 <p className='text-sm mt-4'>we explore the intricate art of coffee cultivation 
+                 <h1  className='text-2xl text-white'>Branko Coffee Shop</h1>
+                 <p className='text-sm mt-4 text-white'>we explore the intricate art of coffee cultivation 
                    and the journey from bean to cup, unraveling the 
                    secrets that contribute to the perfect brew.</p>
               <button

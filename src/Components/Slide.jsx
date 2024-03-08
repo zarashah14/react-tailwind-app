@@ -3,11 +3,12 @@ import Image1 from '../assets/Screenshot_2.jpg'
 function Slide() {
   return (
     <section id="portfolio" className=''>
-       <div  className='mb-10'>
+       {/* <div  className='mb-10'>
         <h1 className='text-3xl font-bold mt-6 ml-4'>Coffee Types Avaliable</h1>
-       </div>
-
-       <div className='grid lg:grid-cols-2 grid-cols-1 bg-green-200 rounded-xl p-8'>
+       </div> */}
+        <div className='bg-green-200 mx-8 my-8 rounded-xl'>
+          
+       <div className='grid lg:grid-cols-2 grid-cols-1 rounded-xl p-8'>
            <div id="webdiscription" className='flex flex-col justify-center align-middle md:p-8 p-4'>
               <h1 className='text-2xl'>My Coffee shop products</h1>
                <p className='text-sm mt-2'>Savoring Every Sip is not just a blog;
@@ -29,6 +30,8 @@ function Slide() {
               <div className='websiteImage'>
               <img src={Image1} alt="my image" className='rounded-xl'/>
               </div>
+       </div>
+
        </div>
     </section>
   )

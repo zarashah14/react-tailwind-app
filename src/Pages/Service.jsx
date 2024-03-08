@@ -3,9 +3,10 @@ import Cup from '../assets/Cup'
 function Service() {
   return (
     <>
-          <section className='bg-blue-200 p-10'>
+          <section className='p-10'>
+            <div className='bg-blue-300 px-6 py-14 rounded-xl'>
           <div className='mb-10'>
-           <h1 className='text-5xl font-bold'>Services</h1>
+           <h1 className='text-4xl font-semibold'>Services</h1>
          </div>
       
          <div id='servicesMainGrid' className='grid md:grid-cols-2 gap-5'>
@@ -65,7 +66,7 @@ function Service() {
 
          </div>
 
-
+         </div>
        </section>
     
     
