@@ -20,8 +20,8 @@ function App() {
         <Card />
         <Services/>
         <Slider/>
-        <Footer/>
         </Container>
+        <Footer/>
     </>
   );
 }
